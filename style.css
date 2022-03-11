@@ -1,0 +1,101 @@
+@media(max-width: 1200px) {
+  .container {
+    width: 980px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+  .banner {
+    padding: 70px 0;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  .banner p {
+    font-size: 28px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
+
+body {
+  font-family: 'Lora', serif;
+  color: #4C4C4C;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  color: white;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.card-white {
+  margin: 50px auto;
+  width: 700px;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.paragraph-link {
+  background-image: linear-gradient(to right, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  font-size: 25px;
+  font-style: italic;
+  color: #636363;
+}
+
+.paragraph-link:hover {
+  background-image: linear-gradient(to right, rgb(105, 238, 151), rgba(105, 238, 151));
+}
